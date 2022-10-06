@@ -114,9 +114,7 @@ ClassicEditor.builtinPlugins = [
 ClassicEditor.defaultConfig = {
     toolbar: {
         items: [
-            // "paragraph",
-            // "heading1",
-            // "heading2",
+            "fullScreen",
             "heading",
             "|",
             "fontFamily",
@@ -153,7 +151,6 @@ ClassicEditor.defaultConfig = {
             "|",
             "sourceEditing",
             "|",
-            "fullScreen",
             "undo",
             "redo",
             "footnote"
