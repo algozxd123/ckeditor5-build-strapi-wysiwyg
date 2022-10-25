@@ -188,6 +188,8 @@ ClassicEditor.defaultConfig = {
             "resizeImage:original",
             "|",
             "linkImage",
+            "|",
+            "toggleImageCaption"
         ],
     },
     table: {
