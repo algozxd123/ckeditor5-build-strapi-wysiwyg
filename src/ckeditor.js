@@ -53,7 +53,7 @@ import { StrapiUploadAdapter } from "@gtomato/ckeditor5-strapi-upload-plugin";
 import { StrapiMediaLib } from "./strapi-medialib-plugin";
 import sanitizeHtml from "sanitize-html";
 import FullScreen from "./fullscreen-plugin";
-import Footnote from "./footnote-plugin";
+import Footnotes from './footnotes-plugin/footnotes';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -107,7 +107,7 @@ ClassicEditor.builtinPlugins = [
     FullScreen,
     TableProperties,
     TableCellProperties,
-    Footnote
+    Footnotes
 ];
 
 // Editor configuration.
@@ -153,7 +153,7 @@ ClassicEditor.defaultConfig = {
             "|",
             "undo",
             "redo",
-            "footnote"
+            "footnotes"
         ],
         shouldNotGroupWhenFull: true,
     },
@@ -293,3 +293,4 @@ ClassicEditor.defaultConfig = {
     // This value must be kept in sync with the language defined in webpack.config.js.
     language: "en",
 };
+
