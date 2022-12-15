@@ -94,7 +94,18 @@ export default class FormView extends View {
 	}
 
 	_createInput( label ) {
-		const labeledInput = new LabeledFieldView( this.locale, createLabeledInputText );
+		let labeledInput = new LabeledFieldView( this.locale, createLabeledInputText );
+
+		// labeledInput.setTemplate({
+		// 	tag: 'textarea'
+		// })
+
+		// console.log('lol');
+		// console.log(labeledInput.template.children[0].children[0]);
+		// console.log(labeledInput.template.children[0].children[0].element);
+		// console.log(labeledInput.template.children[0].children[0].template);
+
+		labeledInput.template.children[0].children[0].template.tag = 'textarea';
 
 		labeledInput.label = label;
 
