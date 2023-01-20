@@ -54,6 +54,7 @@ import { StrapiMediaLib } from "./strapi-medialib-plugin";
 import sanitizeHtml from "sanitize-html";
 import FullScreen from "./fullscreen-plugin";
 import Footnotes from './footnotes-plugin/footnotes';
+import Placeholder from "./signatures-plugin";
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -107,7 +108,8 @@ ClassicEditor.builtinPlugins = [
     FullScreen,
     TableProperties,
     TableCellProperties,
-    Footnotes
+    Footnotes,
+    Placeholder
 ];
 
 // Editor configuration.
@@ -153,7 +155,8 @@ ClassicEditor.defaultConfig = {
             "|",
             "undo",
             "redo",
-            "footnotes"
+            "footnotes",
+            "placeholder"
         ],
         shouldNotGroupWhenFull: true,
     },
@@ -268,6 +271,9 @@ ClassicEditor.defaultConfig = {
             "JetBrains Mono, monospace",
             "Lato, Inter, sans-serif",
         ],
+    },
+    placeholderConfig: {
+        types: [ 'WND', 'Mercola', 'AIER', 'Brownstone', 'FEE', 'Julie Ponesse', "Children's Health Defence", 'Standard', 'Creative Commons 4.0' ]
     },
     link: {
         defaultProtocol: "http://",
