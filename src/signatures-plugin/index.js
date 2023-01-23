@@ -21,7 +21,7 @@ class PlaceholderCommand extends Command {
         editor.model.change( writer => {
 
             //Insert the text at the user's current position
-            editor.model.insertContent( writer.createText( "<"+value+">" ) );
+            editor.model.insertContent( writer.createText( "(["+value+"])" ) );
         });
     }
 
