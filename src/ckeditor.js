@@ -273,7 +273,7 @@ ClassicEditor.defaultConfig = {
         ],
     },
     placeholderConfig: {
-        types: [ 'WND', 'Mercola', 'AIER', 'Brownstone', 'FEE', 'Julie Ponesse', "Children's Health Defence", 'Standard', 'Creative Commons 4.0' ]
+        types: [ 'WND', 'Mercola', 'AIER', 'Brownstone', 'FEE', 'Julie Ponesse', "Children's Health Defence", 'Standard', 'Creative Commons 4.0', 'Shahar Gavish' ]
     },
     link: {
         defaultProtocol: "http://",
