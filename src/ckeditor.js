@@ -293,10 +293,10 @@ ClassicEditor.defaultConfig = {
   },
   newsletterformConfig: {
     types: [
-      "Frontline News, guarding your right to clean information.",
-      "Why settle for news that merely passes for information? Read Frontline News for integrated knowledge.",
-      "Are your views misrepresented by the media? Come home to Frontline News for plain talk and common sense perspectives.",
-      "What's your philosophy? Frontline News reports on the moral and intellectual concepts that shape current events.",
+      "Subscribe to Frontline Dispatch, conceived in journalistic freedom and committed to righting journalistic wrongs",
+      "Get Frontline Dispatch, for news you can LIVE with.",
+      "Frontline Dispatch brings you news with life-affirming significance.",
+      "Subscribe to Frontline Dispatch for your daily affirmation that globalism is bound to fail.",
     ],
   },
   link: {
